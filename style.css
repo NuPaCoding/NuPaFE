@@ -1,4 +1,15 @@
+
+
 li {
  margin-right: 5px;
  list-style: none;
+}
+
+#fotoPortada {
+    width: 100%;
+}
+
+#fotoPerfil {
+    border-radius: 50%;
+    margin-left:  30px
 }
