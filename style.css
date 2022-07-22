@@ -28,6 +28,7 @@ li {
 
 #fotoPerfil {
     border-radius: 50%;
+    border: 2px solid white;
     margin-left:  20px;
 } 
 
