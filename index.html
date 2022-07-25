@@ -37,7 +37,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar" style="background-color: #e3f2fd">
+      <nav class="navbar navbarHeader">
         <div class="container-fluid">
           <a class="navbar-brand">Juan José Nuñez Pacheco</a>
           <ul class="d-flex">
@@ -75,7 +75,11 @@
             </li>
 
             <li>
-              <button type="button" class="btn btn-success btn-sm">
+              <button
+                type="button"
+                class="btn btn-success btn-sm login"
+                style="width: 70px; justify-content: center"
+              >
                 Login
               </button>
             </li>
@@ -84,110 +88,112 @@
       </nav>
     </header>
 
-    <div class="container-fluid containerPortada">
-      <div>
-        <img
-          class="img-fluid"
-          src="./img/Portada1900x600.jpg"
-          alt="portada"
-          id="fotoPortada"
-        />
+    <div class="cuerpo m-2">
+      <div class="container-fluid containerPortada">
+        <div>
+          <img
+            class="img-fluid"
+            src="./img/Portada1900x600.jpg"
+            alt="portada"
+            id="fotoPortada"
+          />
+        </div>
+
+        <div class="img-fluid">
+          <img src="./img/f1.png" alt="fotoPerfil" id="fotoPerfil" />
+        </div>
+
+        <div class="nombrePerfil">
+          <h2 id="editNombre"><b>Juan José Nuñez Pacheco</b></h2>
+          <p class="">Visualizador en Centro de Monitoreo Tafi Viejo</p>
+          <p class="">
+            Tucumán (Argentina) <a href="#!">Información de contacto</a>
+          </p>
+        </div>
+        <nav>
+          <ul class="d-flex botonPerfil">
+            <li>
+              <button type="button" class="btn btn-sm btn-primary botonBgColor">
+                Tengo interés en
+              </button>
+            </li>
+            <li>
+              <button type="button" class="btn btn-sm btn-primary botonBgColor">
+                Añadir sección
+              </button>
+            </li>
+            <li>
+              <button type="button" class="btn btn-sm btn-primary botonBgColor">
+                Más
+              </button>
+            </li>
+          </ul>
+        </nav>
       </div>
 
-      <div class="img-fluid">
-        <img src="./img/f1.png" alt="fotoPerfil" id="fotoPerfil" />
+      <div class="container-fluid containerBorde">
+        <h4><b>Acerca de</b></h4>
+        <p>Programador Web Full Stack Junior (en proceso)</p>
       </div>
 
-      <div class="nombrePerfil">
-        <h2 id="editNombre"><b>Juan José Nuñez Pacheco</b></h2>
-        <p class="">Visualizador en Centro de Monitoreo Tafi Viejo</p>
-        <p class="">
-          Tucumán (Argentina) <a href="#!">Información de contacto</a>
+      <div class="container-fluid containerBorde">
+        <h4><b>Experiencia</b></h4>
+        <div class="row">
+          <img class="img-ico col-1" src="./img/monitoreo.png" alt="logo1" />
+          <ul class="col-11 info-col">
+            <li>
+              <h5><b>Visualizador</b></h5>
+            </li>
+            <li><h7>Centro de Monitoreo Tafi Viejo</h7></li>
+            <li><h6>Desde Jun-2019 Hasta la Actualidad</h6></li>
+            <li><h6>Tafí Viejo - Tucumán - Argentina</h6></li>
+          </ul>
+        </div>
+        <h4><b>Educación</b></h4>
+        <div class="row">
+          <img class="col-1 img-ico" src="./img/utn-frt.png" alt="logo2" />
+          <ul class="col-11 info-col">
+            <li>
+              <h5><b>UTN - FRT</b></h5>
+            </li>
+            <li>
+              <h6>Técnico Superior en Higiene y Seguridad en el Trabajo</h6>
+            </li>
+            <li><h6>2013-2017</h6></li>
+          </ul>
+        </div>
+        <div class="row">
+          <img class="col-1 img-ico" src="./img/esc-tecnica.png" alt="logo3" />
+          <ul class="col-11 info-col">
+            <li>
+              <h5><b>Escuela Técnica Prof. Rafael Marino</b></h5>
+            </li>
+            <li><h6>Técnico Electro-Mecanico</h6></li>
+            <li><h6>2002-2006</h6></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container-fluid containerBorde">
+        <h4><b>Hard Skills & Soft Skills</b></h4>
+        <div class="sangria">✔ Resolución de Problemas</div>
+        <div class="sangria">✔ Diseño de Sistemas</div>
+      </div>
+
+      <div class="container-fluid containerBorde">
+        <h4><b>Proyectos</b></h4>
+        <h5 class="sangria">e-Farmacia</h5>
+        <p class="sangria">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam,
+          deleniti atque animi unde quia impedit accusamus laudantium tempora
+          enim asperiores.
+        </p>
+        <h5 class="sangria">Sistema de Monitoreo</h5>
+        <p class="sangria">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+          fugiat unde molestias at? Voluptates autem ipsam fugiat sunt totam
+          eligendi modi vitae commodi ipsa cumque.
         </p>
       </div>
-      <nav>
-        <ul class="d-flex botonPerfil">
-          <li>
-            <button type="button" class="btn btn-sm btn-primary botonBgColor">
-              Tengo interés en
-            </button>
-          </li>
-          <li>
-            <button type="button" class="btn btn-sm btn-primary botonBgColor">
-              Añadir sección
-            </button>
-          </li>
-          <li>
-            <button type="button" class="btn btn-sm btn-primary botonBgColor">
-              Más
-            </button>
-          </li>
-        </ul>
-      </nav>
-    </div>
-
-    <div class="container-fluid containerBorde">
-      <h4><b>Acerca de</b></h4>
-      <p>Programador Web Full Stack Junior (en proceso)</p>
-    </div>
-
-    <div class="container-fluid containerBorde">
-      <h4><b>Experiencia</b></h4>
-      <div class="row">
-        <img class="img-ico col-1" src="./img/monitoreo.png" alt="logo1" />
-        <ul class="col-11 info-col">
-          <li>
-            <h5><b>Visualizador</b></h5>
-          </li>
-          <li><h7>Centro de Monitoreo Tafi Viejo</h7></li>
-          <li><h6>Desde Jun-2019 Hasta la Actualidad</h6></li>
-          <li><h6>Tafí Viejo - Tucumán - Argentina</h6></li>
-        </ul>
-      </div>
-      <h4><b>Educación</b></h4>
-      <div class="row">
-        <img class="col-1 img-ico" src="./img/utn-frt.png" alt="logo2" />
-        <ul class="col-11 info-col">
-          <li>
-            <h5><b>UTN - FRT</b></h5>
-          </li>
-          <li>
-            <h6>Técnico Superior en Higiene y Seguridad en el Trabajo</h6>
-          </li>
-          <li><h6>2013-2017</h6></li>
-        </ul>
-      </div>
-      <div class="row">
-        <img class="col-1 img-ico" src="./img/esc-tecnica.png" alt="logo3" />
-        <ul class="col-11 info-col">
-          <li>
-            <h5><b>Escuela Técnica Prof. Rafael Marino</b></h5>
-          </li>
-          <li><h6>Técnico Electro-Mecanico</h6></li>
-          <li><h6>2002-2006</h6></li>
-        </ul>
-      </div>
-    </div>
-    <div class="container-fluid containerBorde">
-      <h4><b>Hard Skills & Soft Skills</b></h4>
-      <div class="sangria">✔ Resolución de Problemas</div>
-      <div class="sangria">✔ Diseño de Sistemas</div>
-    </div>
-
-    <div class="container-fluid containerBorde">
-      <h4><b>Proyectos</b></h4>
-      <h5 class="sangria">e-Farmacia</h5>
-      <p class="sangria">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam,
-        deleniti atque animi unde quia impedit accusamus laudantium tempora enim
-        asperiores.
-      </p>
-      <h5 class="sangria">Sistema de Monitoreo</h5>
-      <p class="sangria">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis fugiat
-        unde molestias at? Voluptates autem ipsam fugiat sunt totam eligendi
-        modi vitae commodi ipsa cumque.
-      </p>
     </div>
 
     <footer>

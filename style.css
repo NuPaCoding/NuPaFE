@@ -1,18 +1,31 @@
 body  {
-    max-width: 1400px;
-    margin: 10px;
     background-color: white;
+}
+
+.navbarHeader {
+    /* border-radius: 20px; */
+    background-color: #000000;
+}
+
+.navbar-brand {
+    color: white;
+    padding-left: 11px;
+    font-size: 20px;
 }
 
 li {
     padding-top: 10px;
- margin-right: 5px;
- list-style: none;
+    margin-right: 5px;
+    list-style: none;
+}
+
+.login{
+    padding-bottom: 11px;
 }
 
 .containerPortada {
     border: 1px solid rgb(214, 209, 209);
-    border-radius: 20px;
+    border-radius: 0 0 20px 20px;
     padding: 0px;
     margin-top: 10px;
     /* background-size: cover; */
@@ -20,7 +33,7 @@ li {
 
 #fotoPortada {
     margin-bottom: -50px;
-    border-radius: 20px 20px 0 0;
+    border-radius: 0 0 20px 20px;
 }
 
 #fotoPerfil {
@@ -67,6 +80,7 @@ li {
 footer{
     background-color: black;
     color: white;
-    padding: 20px 0;
-    margin-top: 10px;
+    justify-content: center;
+    padding: 25px 0 10px 0;
+    /* border-radius: 20px; */
 }
