@@ -77,6 +77,11 @@ li {
     padding-left: 40px;
 }
 
+.progress {
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
 footer{
     background-color: black;
     color: white;
